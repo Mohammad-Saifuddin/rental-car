@@ -1,0 +1,98 @@
+/*Login*/
+.groupedFields{
+    margin-top : 150px;
+    margin-left: -500px;
+    text-align: center;
+}
+.CarLogo{
+    width: 200px;
+    height: auto;
+    margin-left:200px;
+}
+.Mbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.formLogin{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+}
+.Error{
+    color: red;
+}
+button[type=submit]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/*Managerlogin*/
+.ManagerLogo{
+    width: 65px;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.ManagerT{
+    text-align: center;
+    margin-top: 1px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.fieldME{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+input[type=text]{
+    width: 20%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 20%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+}
+.fname{
+    margin-top: 4px;
+    margin-right: 12px;
+}
+.lname{
+    margin-top: 4px;
+    margin-right: 17px
+}
+.M1button{
+    display: flex;
+    justify-content: center;
+}
+.field{
+    margin-top: 5px;
+}
+
+/*Employee login*/
+.EmployeeLogo{
+    width: 65px;
+    height: auto;
+    margin-top: 170px;
+    margin-bottom: 10px;
+}
+.EmployeeT{
+    text-align: center;
+    margin-top: 1px;
+}
+.ForgetPassword{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
