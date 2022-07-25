@@ -8,6 +8,9 @@ import CarMd from './components/Manager/ManagerDashboard/CarMd';
 import EmployeeMd from './components/Manager/ManagerDashboard/EmployeeMd';
 import UserMd from './components/Manager/ManagerDashboard/UserMd';
 import RevenueMd from './components/Manager/ManagerDashboard/RevenueMd';
+import EmployeeDashboard from './components/Employee/EmployeeDashboard';
+import UserMd1 from './components/Employee/EmployeeDashboard/UserMd1';
+import CarMd1 from './components/Employee/EmployeeDashboard/CarMd1';
 
 function App() {
   return (
@@ -23,6 +26,10 @@ function App() {
             <Route path='EmployeeMd' component={EmployeeMd} element={<EmployeeMd/>}/>
             <Route path='UserMd' component={UserMd} element={<UserMd/>}/>
             <Route path='RevenueMd' component={RevenueMd} element={<RevenueMd/>}/>
+            <Route path='EmployeeDashboard' component={EmployeeDashboard} element={<EmployeeDashboard/>}/>
+            <Route path='UserMd1' component={UserMd1} element={<UserMd1/>}/>
+            <Route path='CarMd1' component={UserMd1} element={<UserMd1/>}/>
+            
           </Routes>
           </>
       </div>

@@ -229,3 +229,41 @@ input[type=password]{
     justify-content: center;
     margin: 0px 200px;
 }
+/*EmployeeDashaboard*/
+
+.EmployeeHeading{
+    margin-top: -100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.EmployeeDashboard{
+    margin-top: 200px;
+}
+.Car1{
+    width: 95px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 242px;
+}
+.CarText1{
+    margin-left: 275px;
+    margin-top: -2px;
+}
+.CarT1{
+    text-decoration: none;
+    color:midnightblue;
+}
+.User1{
+    width: 75px;
+    height: auto;
+    margin-top: -65px;
+    margin-left: 450px;
+}
+.UserText1{
+    margin-left: 465px;
+    margin-top: -2px;
+}
+.UserT1{
+    text-decoration: none;
+    color:midnightblue;
+}
