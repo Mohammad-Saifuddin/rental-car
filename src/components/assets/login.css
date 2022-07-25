@@ -96,3 +96,136 @@ input[type=password]{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+/*ManagerDasboard*/
+
+.ManagerHeading{
+    margin-top: 10px;
+    margin-bottom: -120px;
+    text-align: center;
+}
+
+.Employee{
+    width: 65px;
+    height: auto;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+.EmployeeText{
+    text-decoration: none;
+    margin-left: 240px;
+    margin-top: 2px;
+}
+.EmployeeT1{
+    text-decoration: none;
+    color:midnightblue;
+}
+.Car{
+    width: 95px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 242px;
+}
+.CarText{
+    margin-left: 275px;
+    margin-top: -2px;
+}
+.CarT{
+    text-decoration: none;
+    color:midnightblue;
+}
+.User{
+    width: 75px;
+    height: auto;
+    margin-top: -250px;
+    margin-left: 450px;
+}
+.UserText{
+    margin-left: 465px;
+    margin-top: -2px;
+}
+.UserT{
+    text-decoration: none;
+    color:midnightblue;
+}
+.Revenue{
+    width: 95px;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 442px;
+}
+.RevenueText{
+    margin-left: 425px;
+    margin-top: -2px;
+}
+.RevenueT{
+    text-decoration: none;
+    color:midnightblue;
+}
+
+/* EmployeeMd */
+
+.EmployeeMdHeading{
+    text-align: center;
+    margin-top: 50px;
+}
+.EmployeeMd{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.AddEmployeeB{
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+/* UserMd */
+
+.UserMdHeading{
+    text-align: center;
+    margin-top: 50px;
+}
+.UserMd{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.AddUserB{
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+/* CarMd */
+
+.CarMdHeading{
+    text-align: center;
+    margin-top: 50px;
+}
+.CarMd{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.AddCarB{
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+/* RevenueMd */
+
+.RevenueMdHeading{
+    text-align: center;
+    margin-top: 50px;
+}
+.RevenueMd{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.AddRevenueB{
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+}
