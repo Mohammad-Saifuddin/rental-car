@@ -36,8 +36,7 @@ const Login = () => {
                 <div className='ProjectName'>
                     <img src={CarLogo} className="CarLogo"/>
                     <h1 className='RentalCar'>Rental Car Company Management System</h1>
-                </div>
-                
+                </div> 
                 <div className='groupedFields'>
                     <h2>Select your Area of Operation</h2>
                     <h4 className='ToLogin'>To Login :</h4>
@@ -47,8 +46,7 @@ const Login = () => {
                     <h4 className='Error'>{error}</h4>
                     :
                     null
-
-                }
+                    }
                     <div className='field'>
                         <div className='ui radio checkbox'>
                             <input type='radio' value='Manager' name='person' onChange={handleChange} />
@@ -59,16 +57,14 @@ const Login = () => {
                         <div className='ui radio checkbox'>
                                 <input type='radio' value='Employee' name='person' onChange={handleChange}/>
                                 <label>Employee</label>         
-                        </div>
-                        
+                        </div>                       
                     </div>
+                    <div className='MbuttonL'>
+                    <Link to={path}/>
+                    <button className='button' type='submit' onClick={handleClick}>Next</button>   
                 </div>
-            </div>
-            <div className='Mbutton'>
-            <Link to={path}/>
-            <button className='button' type='submit' onClick={handleClick}>Next</button>   
-            </div>
-            
+                </div> 
+            </div>          
         </div>
     );
 }

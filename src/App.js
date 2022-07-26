@@ -28,7 +28,7 @@ function App() {
             <Route path='RevenueMd' component={RevenueMd} element={<RevenueMd/>}/>
             <Route path='EmployeeDashboard' component={EmployeeDashboard} element={<EmployeeDashboard/>}/>
             <Route path='UserMd1' component={UserMd1} element={<UserMd1/>}/>
-            <Route path='CarMd1' component={UserMd1} element={<UserMd1/>}/>
+            <Route path='CarMd1' component={CarMd1} element={<CarMd1/>}/>
             
           </Routes>
           </>
