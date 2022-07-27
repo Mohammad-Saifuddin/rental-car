@@ -14,6 +14,9 @@ const UserMd1 = () => {
                     <button className="UpdateUserB" type="submit">Update User</button>
                 </div>
             </div>
+                <div className="ViewUser">
+                    <button className="ViewUserB" type="submit">View User</button>
+                </div>
             </div>
         );
     

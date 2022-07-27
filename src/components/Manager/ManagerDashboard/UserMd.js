@@ -17,6 +17,9 @@ const UserMd = () => {
                     <button className="DeleteUserB" type="submit">Delete User</button>
                 </div>
             </div>
+                <div className="ViewUser">
+                    <button className="ViewUserB" type="submit">View User</button>
+                </div>
             </div>
         );
     
