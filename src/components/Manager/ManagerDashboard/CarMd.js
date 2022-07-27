@@ -17,6 +17,9 @@ const CarMd = () => {
                     <button className="DeleteCarB" type="submit">Delete Car</button>
                 </div>
             </div>
+                <div className="ViewCar">
+                    <button className="ViewCarB" type="submit">View Car</button>
+                </div>
             </div>
         );
     

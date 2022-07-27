@@ -99,11 +99,11 @@ input[type=password]{
 /*ManagerDasboard*/
 
 .ManagerHeading{
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: -120px;
+    margin-left: 100px;
     text-align: center;
 }
-
 .Employee{
     width: 65px;
     height: auto;
@@ -178,6 +178,11 @@ input[type=password]{
     justify-content: center;
     margin: 0px 200px;
 }
+.ViewEmployee{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
 /* UserMd */
 
@@ -195,6 +200,12 @@ input[type=password]{
     justify-content: center;
     margin: 0px 200px;
 }
+.ViewUser{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 
 /* CarMd */
 
@@ -212,6 +223,12 @@ input[type=password]{
     justify-content: center;
     margin: 0px 200px;
 }
+.ViewCar{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
 
 /* RevenueMd */
 
@@ -229,11 +246,13 @@ input[type=password]{
     justify-content: center;
     margin: 0px 200px;
 }
+
 /*EmployeeDashaboard*/
 
 .EmployeeHeading{
-    margin-top: -100px;
-    margin-bottom: 10px;
+    margin-top: -150px;
+    margin-bottom: 80px;
+    margin-left: 100px;
     text-align: center;
 }
 .EmployeeDashboard{

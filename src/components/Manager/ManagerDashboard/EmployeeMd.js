@@ -17,6 +17,9 @@ const EmployeeMd = () => {
                     <button className="DeleteEmployeeB" type="submit">Delete Employee</button>
                 </div>
             </div>
+                <div className="ViewEmployee">
+                    <button className="ViewEmployeeB" type="submit">View Employee</button>
+                </div>
             </div>
         );
     

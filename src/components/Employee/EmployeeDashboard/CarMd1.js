@@ -14,6 +14,9 @@ const CarMd1 = () => {
                     <button className="UpdateCarB" type="submit">Update Car</button>
                 </div>
             </div>
+                <div className="ViewCar">
+                    <button className="ViewCarB" type="submit">View Car</button>
+                </div>
             </div>
         );
     
