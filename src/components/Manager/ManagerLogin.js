@@ -24,7 +24,12 @@ const ManagerLogin  = () =>{
 
     const data = await response.json()
 
-    console.log(data)
+    if(data.user){
+      alert('Login sccessful')
+      window.location.href = '/ManagerDashboard'
+    } else{
+      alert('Please check your username and password')
+    }
   }
 
     return(
