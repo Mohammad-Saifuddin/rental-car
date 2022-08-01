@@ -13,7 +13,7 @@ const EmployeeAdd = () => {
 
     async function EmpAdd(event) {
         event.preventDefault()
-        const response = await fetch('http://localhost:3001/api/Manlogin',{
+        const response = await fetch('http://localhost:3001/api/EmpAdd',{
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -29,6 +29,8 @@ const EmployeeAdd = () => {
         })
     
         const data = await response.json()
+
+        console.log(data)
     }
      
         return(
@@ -48,7 +50,7 @@ const EmployeeAdd = () => {
     </div>
     <div className="fieldME">
       <label className='lname'>Password:</label>
-      <input value={password} onChange={(e) => setPassword(e.target.value)} type="text"  placeholder="Password"/>
+      <input value={password} onChange={(e) => setPassword(e.target.value)} type="password"  placeholder="Password"/>
     </div>
     <div className="fieldME">
       <label className='lname'>Phone No:</label>
@@ -58,7 +60,7 @@ const EmployeeAdd = () => {
       <input value={dob} onChange={(e) => setDob(e.target.value)} type="text"  placeholder="DOB"/>
     </div>
     <div className='M1button'>
-    <button className="button" type="submit" value="EmpAdd">Add</button>
+    <button className="button" type="submit" value="EmployeeAdd">Add</button>
     </div>
     </form>
       );

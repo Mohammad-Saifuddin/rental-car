@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
 
 const EmployeeMd = () => {
     
@@ -8,7 +8,7 @@ const EmployeeMd = () => {
                     <h2>EMPLOYEE</h2>
             <div className="EmployeeMd">
                 <div className="CreateEmployee">
-                    <button className="CreateEmployeeB" type="submit">Create Employee</button>
+                    <Link to="/EmployeeAdd" ><button className="CreateEmployeeB" type="submit">Create Employee</button></Link>
                 </div>
                 <div className="UpdateEmployee">
                     <button className="UpdateEmployeeB" type="submit">Update Employee</button>
