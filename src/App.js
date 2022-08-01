@@ -12,6 +12,7 @@ import EmployeeDashboard from './components/Employee/EmployeeDashboard';
 import UserMd1 from './components/Employee/EmployeeDashboard/UserMd1';
 import CarMd1 from './components/Employee/EmployeeDashboard/CarMd1';
 import EmployeeAdd from './components/Manager/ManagerDashboard/EmployeeAdd';
+import UserAdd from './components/Employee/EmployeeDashboard/UserAdd';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path='UserMd1' component={UserMd1} element={<UserMd1/>}/>
             <Route path='CarMd1' component={CarMd1} element={<CarMd1/>}/>
             <Route path='EmployeeAdd' component={EmployeeAdd} element={<EmployeeAdd/>}/>
+            <Route path='UserAdd' component={UserAdd} element={<UserAdd/>}/>
             
           </Routes>
           </>

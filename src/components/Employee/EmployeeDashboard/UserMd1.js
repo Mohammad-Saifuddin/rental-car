@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const UserMd1 = () => {
@@ -8,7 +9,7 @@ const UserMd1 = () => {
                     <h2>USER</h2>
             <div className="UserMd">
                 <div className="CreateUser">
-                    <button className="CreateUserB" type="submit">Create User</button>
+                    <Link to='/UserAdd'><button className="CreateUserB" type="submit">Create User</button></Link>
                 </div>
                 <div className="UpdateUser">
                     <button className="UpdateUserB" type="submit">Update User</button>

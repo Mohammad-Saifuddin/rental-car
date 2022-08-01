@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const ManagerModel = require('./models/Manager');
 const EmployeeModel = require('./models/Employee')
+const UserModel = require('./models/User')
 const cors = require('cors')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
@@ -12,20 +13,8 @@ app.use(express.json())
 
 mongoose.connect('mongodb://localhost:27017/Rental-car');
 
-//app.post('/api/Manlogin', async (req,res) =>{
-    //console.log(req.body)
-    //try {
-        //const newPassword = await bcryp.hash(req.body.password, 10)
-        //await ManagerModel.create({
-           // username: req.body.name,
-           // password: newPassword,
 
-       // })
-       // res.json({ status: 'ok'})
-    //} catch(err){
-       // res.json({ status: 'error', error: 'Dulicte email'})
-    //}
-//});
+//Manager Login
 
 app.post('/api/Manlogin', async (req,res) =>{
     
@@ -55,6 +44,8 @@ app.post('/api/Manlogin', async (req,res) =>{
     
 });
 
+//Employee Add to Database
+
 app.post('/api/EmpAdd', async (req,res) =>{
     try {
             const newPassword = await bcrypt.hash(req.body.password, 10)
@@ -67,12 +58,14 @@ app.post('/api/EmpAdd', async (req,res) =>{
                 dob: req.body.dob,
 
             })
-            res.json({ status: 'ok'})
+            res.json({ status: 'Added Successfully'})
         } catch(err){
-        res.json({ status: 'error', error: 'Dulicte email'})
+        res.json({ status: 'Email already used'})
     }
     
 });
+
+//Employee Login
 
 app.post('/api/Emplogin', async (req,res) =>{
     
@@ -100,6 +93,27 @@ app.post('/api/Emplogin', async (req,res) =>{
         return res.json({ status : 'ok', userE: false})
     }
 
+
+});
+
+//user add to database
+
+app.post('/api/UsrAdd', async (req,res) =>{
+    try {
+
+            await UserModel.create({
+                name: req.body.name,
+                email: req.body.email,
+                address: req.body.address,
+                licenseno: req.body.licenseno ,
+                phoneno: req.body.phoneno,
+                dob: req.body.dob,
+
+            })
+             res.json({ message: 'Added Successfully'})
+        } catch(err){
+         res.json({ message: 'Email already used'})
+    }
 
 });
 
